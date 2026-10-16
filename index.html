@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadhilah Ayu | Portfolio</title>
+    <meta name="description" content="Portfolio of Fadhilah Ayu, Informatics student at Universitas Bina Sarana Informatika.">
+    <meta name="author" content="Fadhilah Ayu">
+    <meta name="theme-color" content="#F8F5F0" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#171310" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://fadhilahayuo.github.io/Fadhilah_Ayu_Portfolio/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fadhilah Ayu | Portfolio">
+    <meta property="og:description" content="Informatics student exploring technology, creativity, and new possibilities.">
+    <meta property="og:url" content="https://fadhilahayuo.github.io/Fadhilah_Ayu_Portfolio/">
+    <meta property="og:site_name" content="Fadhilah Ayu">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://fadhilahayuo.github.io/Fadhilah_Ayu_Portfolio/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Fadhilah Ayu — Informatics Student Portfolio">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fadhilah Ayu | Portfolio">
+    <meta name="twitter:description" content="Informatics student exploring technology, creativity, and new possibilities.">
+    <meta name="twitter:image" content="https://fadhilahayuo.github.io/Fadhilah_Ayu_Portfolio/og-image.png">
+    <meta name="twitter:image:alt" content="Fadhilah Ayu — Informatics Student Portfolio">
+
+    <!-- Anti-FOUC: set tema SEBELUM CSS render -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var os = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.setAttribute("data-theme", saved || (os ? "dark" : "light"));
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fancybox.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Structured data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fadhilah Ayu",
+      "jobTitle": "Informatics Student",
+      "url": "https://fadhilahayuo.github.io/Fadhilah_Ayu_Portfolio/",
+      "image": "https://fadhilahayuo.github.io/Fadhilah_Ayu_Portfolio/foto.jpg",
+      "sameAs": [
+        "https://instagram.com/yu.fxah_dila",
+        "https://youtube.com/@fadhilahayu5609",
+        "https://id.linkedin.com/in/fadhilah-ayu-1aaaa4353",
+        "https://github.com/fadhilahayuo"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universitas Bina Sarana Informatika"
+      },
+      "knowsAbout": ["Python", "Mathematics Tutoring", "Digital Literacy"]
+    }
+    </script>
+</head>
+<body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="intro" aria-hidden="true">
+        <span class="intro-mark">FAO.</span>
+        <span class="intro-line"></span>
+    </div>
+
+    <nav aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Back to home">FAO.</a>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu"
+                aria-expanded="false" aria-controls="nav-links">
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#learning">Learning</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#organization">Organization</a>
+            <a href="#volunteer">Volunteer</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+        </button>
+    </nav>
+
+    <main id="main" tabindex="-1">
+
+        <section id="home" aria-labelledby="home-title">
+            <p>Hello, I'm</p>
+            <h1 id="home-title">Fadhilah Ayu</h1>
+            <p class="role"><span class="role-text" aria-live="polite">Informatics Student</span></p>
+            <p class="hero-tagline">Informatics student turning logic into code — and math into something kids enjoy.</p>
+
+            <ul class="hero-chips">
+                <li>Python</li>
+                <li>Math Tutor</li>
+                <li>HIMA Secretary 2</li>
+            </ul>
+
+            <div class="actions">
+                <a class="btn btn-primary" href="#contact">Contact Me</a>
+                <a class="btn btn-ghost" href="#about">About Me</a>
+                <!-- Aktifkan tombol ini setelah file cv.pdf ada:
+                <a class="btn btn-ghost" href="cv.pdf" download>Download CV</a>
+                -->
+            </div>
+
+            <a class="scroll-cue" href="#about" aria-hidden="true" tabindex="-1">Scroll</a>
+
+            <div class="glow" aria-hidden="true"></div>
+        </section>
+
+        <!-- Ringkasan angka -->
+        <dl class="stats" aria-label="Highlights">
+            <div>
+                <dt>Projects</dt>
+                <dd>2</dd>
+            </div>
+            <div>
+                <dt>Tutoring Roles</dt>
+                <dd>2</dd>
+            </div>
+            <div>
+                <dt>Organizations</dt>
+                <dd>2</dd>
+            </div>
+            <div>
+                <dt>Volunteer &amp; Committee</dt>
+                <dd>3</dd>
+            </div>
+        </dl>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+
+            <div class="about-text">
+                <p>
+                    I'm an Informatics student at Universitas Bina Sarana Informatika.
+                    I'm building my foundation in Python and web development, with a
+                    program that screens for cough and cold, and this portfolio, as
+                    projects to show for it.
+                    
+                </p>
+                <p>
+                    Outside the classroom, I teach mathematics to small groups of
+                    elementary students and serve as Secretary 2 at HIMA Informatika,
+                    handling correspondence and official campus email. Both taught me
+                    to explain things clearly and to keep details in order.
+                </p>
+                <p>
+                    I'm looking for an internship in the field of Informatics where I
+                    can learn, contribute, and grow as a developer.
+                </p>
+            </div>
+
+            <figure class="portrait">
+                <div class="mat">
+                    <span class="corner tl"></span>
+                    <span class="corner tr"></span>
+                    <span class="corner bl"></span>
+                    <span class="corner br"></span>
+                    <img src="foto.jpg" alt="Portrait of Fadhilah Ayu"
+                        decoding="async" data-remove-on-error>
+                </div>
+                <figcaption>Fadhilah Ayu</figcaption>
+            </figure>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div>
+                <h3>Universitas Bina Sarana Informatika</h3>
+                <p>Informatics</p>
+                <p>2025–2029</p>
+            </div>
+
+            <div>
+                <h3>MAN 1 Bogor</h3>
+                <p>Science Program</p>
+                <p>2019–2022</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div>
+                <h3>Python</h3>
+                <p>Writing programs with data types, conditionals, loops, and lists.</p>
+            </div>
+
+            <div>
+                <h3>HTML &amp; CSS</h3>
+                <p>Building responsive, clean web pages from scratch.</p>
+            </div>
+
+            <div>
+                <h3>Git &amp; GitHub</h3>
+                <p>Publishing projects and collaborating through repositories.</p>
+            </div>
+
+            <div>
+                <h3>Microsoft Office</h3>
+                <p>Using Word, Excel, and PowerPoint for reports and presentations.</p>
+            </div>
+
+            <div>
+                <h3>Canva Design</h3>
+                <p>Creating simple visual content and layouts for events and projects.</p>
+            </div>
+
+            <div>
+                <h3>Teaching</h3>
+                <p>Explaining mathematics to elementary school students.</p>
+            </div>
+
+            <div>
+                <h3>Communication</h3>
+                <p>Communicating and collaborating with others.</p>
+            </div>
+
+            <div>
+                <h3>Teamwork</h3>
+                <p>Working together in organizational activities.</p>
+            </div>
+        </section>
+
+        <section id="learning">
+            <h2>Currently Learning</h2>
+
+            <div>
+                <h3>Python OOP</h3>
+                <p>Exploring object-oriented programming — classes, objects, and inheritance.</p>
+            </div>
+
+            <div>
+                <h3>SQL & Databases</h3>
+                <p>Learning how to design tables and write queries for real data.</p>
+            </div>
+
+            <div>
+                <h3>UI Design with Figma</h3>
+                <p>Practicing layout and typography to make interfaces feel intuitive.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div>
+                <h3>Program Diagnosa Penyakit Batuk dan Pilek</h3>
+                <p>Team Project (4 members) — Fundamentals of Programming</p>
+                <p>Semester 1 · 2025</p>
+                <p>
+                    A Python program that screens for cough, cold, or both
+                    based on a patient's symptoms. The user enters patient
+                    data and answers each symptom question with yes or no.
+                    The program scores both conditions and compares them:
+                    the higher score decides the diagnosis, a tie means
+                    both, and zero means nothing is detected. It then prints
+                    everything from the initial data to the final diagnosis,
+                    along with suggested solutions and medicine. Built as a
+                    learning exercise, not for real medical use.
+                </p>
+                <p>
+                    My role: I wrote the processing part of the code
+                    (score initialization, score calculation, and determining
+                    the diagnosis) and helped write the project paper.
+                </p>
+                <ul class="tags">
+                    <li>Python</li>
+                    <li>Data Types</li>
+                    <li>Conditional Logic</li>
+                    <li>Loops</li>
+                    <li>Lists</li>
+                </ul>
+                
+                <div class="project-links">
+                    <a class="text-link" href="https://github.com/fadhilahayuo/Program-Diagnosa-Penyakit-Batuk-Pilek" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    <a class="text-link" href="https://fadhilahayuo.github.io/Program-Diagnosa-Penyakit-Batuk-Pilek/MAKALAH%20FINAL%20PROJECT.pdf" target="_blank" rel="noopener noreferrer">View Report</a>
+                </div>
+                
+            </div>
+
+            <div>
+                <h3>Personal Profile Website</h3>
+                <p>Individual Project — IT Class HIMAIF</p>
+                <p>August 2026</p>
+
+                <figure class="project-media">
+                    <img src="project-2.png" alt="Screenshot of Personal Profile Website">
+                </figure>
+            
+                <p>
+                    A personal profile website built with HTML and CSS,
+                    featuring a profile photo, short tagline, and links
+                    to social media. Designed with a clean, modern layout
+                    and a soft color palette that reflects a personal
+                    brand identity.
+                </p>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Responsive Design</li>
+                </ul>
+                <div class="project-links">
+                    <a class="text-link" href="https://github.com/fadhilahayuo/Profile-Fadhilah-Ayu" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    <a class="text-link" href="https://fadhilahayuo.github.io/Profile-Fadhilah-Ayu/" target="_blank" rel="noopener noreferrer">View Live</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <div>
+                <h3>Houka-Go</h3>
+                <p>Mathematics Tutor</p>
+                <p>July 2026 – Present</p>
+                <p>
+                    Teaching mathematics to small groups of elementary school
+                    students (about 3–10 per session) through exercises suited
+                    to their learning levels.
+                </p>
+            </div>
+
+            <div>
+                <h3>Shinkenjuku</h3>
+                <p>Mathematics Tutor</p>
+                <p>September 2025 – June 2026</p>
+                <p>
+                    Supporting elementary school students in small-group sessions,
+                    guiding them through mathematics practice questions.
+                </p>
+            </div>
+        </section>
+
+        <section id="organization">
+            <h2>Organization</h2>
+
+            <div>
+                <h3>HIMA Informatika — UBSI</h3>
+                <p>Secretary 2</p>
+                <p>2026 – Present</p>
+                <p>
+                    Handling correspondence and official campus email for the
+                    Informatics student association, and supporting documentation
+                    and coordination within the team.
+                </p>
+            </div>
+
+            <div>
+                <h3>Paduan Suara — MAN 1 Bogor</h3>
+                <p>Coordinator of Cleanliness Section</p>
+                <p>December 2024 – January 2025</p>
+                <p>
+                    Coordinating cleanliness responsibilities
+                    during choir activities.
+                </p>
+            </div>
+        </section>
+
+        <section id="volunteer">
+            <h2>Volunteer &amp; Committee</h2>
+
+            <div>
+                <h3>SAKA</h3>
+                <p>Volunteer</p>
+                <p>August 2026 – Present</p>
+                <p>
+                    Volunteer at Sanggar Anak Kita (SAKA), a community for
+                    children in Bantar Gebang. I help facilitate their growth
+                    and development through creative projects — guiding them
+                    through hands-on activities and supporting their learning
+                    journey outside formal education.
+                </p>
+
+                <a href="#gallery-saka" class="gallery-btn" data-fancybox>
+                    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-2h6l2 2h3v11H4zM12 17a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/></svg> View SAKA Photos
+                </a>
+
+                <a href="documents/saka-certificate.pdf" class="gallery-btn" target="_blank" rel="noopener noreferrer">
+                    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/></svg> View Certificate
+                </a>
+
+                <div id="gallery-saka" style="display:none;">
+                    <div class="gallery-grid">
+                        <a href="images/saka-1.jpg" data-fancybox="saka-full">
+                            <img src="images/saka-1.jpg" alt="SAKA 1">
+                        </a>
+                        <a href="images/saka-2.jpg" data-fancybox="saka-full">
+                            <img src="images/saka-2.jpg" alt="SAKA 2">
+                        </a>
+                        <a href="images/saka-3.jpg" data-fancybox="saka-full">
+                            <img src="images/saka-3.jpg" alt="SAKA 3">
+                        </a>
+                        <a href="images/saka-4.jpg" data-fancybox="saka-full">
+                            <img src="images/saka-4.jpg" alt="SAKA 4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3>Pesantren Kilat Ramadan — Masjid Al Hikmah</h3>
+                <p>Committee Member</p>
+                <p>March 2026</p>
+                <p>
+                    Served as a committee member at a Ramadan short-course
+                    event held at Masjid Al Hikmah. My role involved teaching
+                    children Quran recitation, delivering short lessons, and
+                    helping them memorize daily prayers. I guided them through
+                    structured activities and maintained a supportive learning
+                    environment throughout the program.
+                </p>
+
+                <a href="#gallery-pesantren" class="gallery-btn" data-fancybox>
+                    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-2h6l2 2h3v11H4zM12 17a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/></svg> View Pesantren Kilat Photos
+                </a>
+
+                <a href="documents/pesantren-certificate.pdf" class="gallery-btn" target="_blank" rel="noopener noreferrer">
+                    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/></svg> View Certificate
+                </a>
+
+                <div id="gallery-pesantren" style="display:none;">
+                    <div class="gallery-grid">
+                        <a href="images/pesantren-1.jpg" data-fancybox="pesantren-full">
+                            <img src="images/pesantren-1.jpg" alt="Pesantren Kilat 1">
+                        </a>
+                        <a href="images/pesantren-2.jpg" data-fancybox="pesantren-full">
+                            <img src="images/pesantren-2.jpg" alt="Pesantren Kilat 2">
+                        </a>
+                        <a href="images/pesantren-3.jpg" data-fancybox="pesantren-full">
+                            <img src="images/pesantren-3.jpg" alt="Pesantren Kilat 3">
+                        </a>
+                        <a href="images/pesantren-4.jpg" data-fancybox="pesantren-full">
+                            <img src="images/pesantren-4.jpg" alt="Pesantren Kilat 4">
+                        </a>
+                        <a href="images/pesantren-5.jpg" data-fancybox="pesantren-full">
+                            <img src="images/pesantren-5.jpg" alt="Pesantren Kilat 5">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3>Green Generation Beraksi 2026</h3>
+                <p>Volunteer</p>
+                <p>1 January 2026</p>
+                <p>
+                    Volunteered in a New Year clean-up event at Tebet Eco Park.
+                    Helped sort waste and pick up trash across different areas
+                    of the park.
+                </p>
+
+                <a href="#gallery-green" class="gallery-btn" data-fancybox>
+                    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-2h6l2 2h3v11H4zM12 17a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/></svg> View Green Generation Photos
+                </a>
+
+                <a href="documents/green-certificate.pdf" class="gallery-btn" target="_blank" rel="noopener noreferrer">
+                    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/></svg> View Certificate
+                </a>
+
+                <div id="gallery-green" style="display:none;">
+                    <div class="gallery-grid">
+                        <a href="images/green-1.jpg" data-fancybox="green-full">
+                            <img src="images/green-1.jpg" alt="Green Generation 1">
+                        </a>
+                        <a href="images/green-2.jpg" data-fancybox="green-full">
+                            <img src="images/green-2.jpg" alt="Green Generation 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates &amp; Achievements</h2>
+
+            <div>
+                <h3>Digital Skills Training</h3>
+                <p>DQLab</p>
+                <p>Certificate of Completion</p>
+            </div>
+
+            <div>
+                <h3>Digital Marketing Learning Path</h3>
+                <p>MySkill</p>
+                <p>Creative Copywriting — 12 Hours</p>
+            </div>
+
+            <div>
+                <h3>Competition &amp; Volunteer Certificates</h3>
+                <p>
+                    Certificates from competitions, volunteering,
+                    and other activities.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Let's connect and share new possibilities.</p>
+
+            <div class="contact-links">
+                <a href="https://instagram.com/yu.fxah_dila" target="_blank" rel="noopener noreferrer">
+                    <span>Instagram</span>
+                    <small>@yu.fxah_dila</small>
+                </a>
+                <a href="https://youtube.com/@fadhilahayu5609" target="_blank" rel="noopener noreferrer">
+                    <span>YouTube</span>
+                    <small>@fadhilahayu5609</small>
+                </a>
+                <a href="https://id.linkedin.com/in/fadhilah-ayu-1aaaa4353" target="_blank" rel="noopener noreferrer">
+                    <span>LinkedIn</span>
+                    <small>Fadhilah Ayu</small>
+                </a>
+                <a href="mailto:ayufadhilah55@gmail.com">
+                    <span>Email</span>
+                    <small>ayufadhilah55@gmail.com</small>
+                </a>
+                <a href="https://github.com/fadhilahayuo" target="_blank" rel="noopener noreferrer">
+                    <span>GitHub</span>
+                    <small>@fadhilahayuo</small>
+                </a>
+            </div>
+
+            <p class="closing">Feel free to reach out for collaboration or opportunities.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span data-year>2026</span> Fadhilah Ayu. All rights reserved.</p>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Back to top" aria-hidden="true">
+        <svg viewBox="0 0 48 48" aria-hidden="true">
+            <circle class="ring-track" cx="24" cy="24" r="21"></circle>
+            <circle class="ring-bar" cx="24" cy="24" r="21" pathLength="100"></circle>
+            <path class="arrow" d="M24 31V17M17.5 23.5 24 17l6.5 6.5"></path>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]");
+    </script>
+</body>
+</html>
