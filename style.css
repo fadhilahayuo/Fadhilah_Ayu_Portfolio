@@ -1891,7 +1891,7 @@ h3 {
     flex-direction: column;
     gap: 10px;
     padding: 8px;
-    max-width: 600px;
+    width: min(560px, 78vw);
 }
 
 .cert-item {
